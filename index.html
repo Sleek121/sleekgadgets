@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleek Gadgets</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="../src/img/lucrezia-carnelos-wQ9VuP_Njr4-unsplash.jpg" type="image/x-icon">
+  </head>
+  <body class="bg-gray-50"> 
+    <div class="container mx-auto p-5">
+      <div class="md:flex md:flex-row md:justify-between items-center text-center">
+        <div class="flex justify-between items-center">
+          <h1 class="text-2xl md:text-3xl bg-purple-600-green-700 font-semibold md:mb-1 mt-0">
+            Sleek Gadgets
+          </h1>
+          <div>
+            <svg id="burger" class="w-7 h-7 md:hidden cursor-pointer" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hidden md:flex md:flex-row items-center">
+          <a href="#" class="p-4 hover:scale-105 duration-200">Home</a>
+          <a href="#" class="p-4 hover:scale-105 duration-200">Shop</a>
+          <a href="#" class="p-4 hover:scale-105 duration-200">Deals</a>
+          <a href="#" class="p-4 hover:scale-105 duration-200">Contact Us</a>
+        </div>
+        <div class="hidden md:flex md:mt-1 mt-6">
+          <a
+          href="#"
+          class="bg-purple-600 text-gray-50 hover:bg-purple-700 duration-300 p-3 px-5 rounded-full"
+          >
+          <svg class="h-6 w-6 inline-block" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+          </svg>
+          Cart (<span id="countLabel">0</span>)</a
+        >
+         </div>
+         <div class="hidden" id="menu">
+          <div class="flex flex-col bg-gray-900 text-gray-200">
+            <a class="my-4 font-normal text-lg" href="#">Home</a>
+            <a class="my-4 font-normal text-lg" href="#">Shop</a>
+            <a class="my-4 font-normal text-lg" href="#">Deals</a>
+            <a class="my-4 font-normal text-lg" href="#">Contact Us</a>
+            <a
+          href="#"
+          class="bg-purple-600 text-gray-50 hover:bg-purple-700 duration-300 p-3 px-5 rounded-full"
+          >
+          <svg class="h-6 w-6 inline-block" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+          </svg>
+          Cart (<span id="countLabel2">0</span>)</a>
+          </div>
+         </div>
+      </div> <!--Main navigation-->
+
+      <div class="md:flex md:flex-row mt-20">
+        <div class="md:w-2/5 flex flex-col justify-center items-center">
+            <h2 class="font-serif text-5xl text-gray-800 mb-4 font-medium text-center md:self-start md:text-left">All about gadgets</h2>
+            <p class="uppercase text-gray-800 tracking-wide font-medium text-center md:self-start md:text-left">We pride in quality products</p>
+            <p class="uppercase text-gray-800 tracking-wide font-medium text-center md:self-start md:text-left">Always at your service</p>
+            <a href="#" class="bg-gradient-to-r from bg-red-600 to-pink-500 hover:bg-red-700 duration-300 rounded-full py-4 px-8 text-gray-50 uppercase text-xl md:self-start my-5">Shop Now</a>
+        </div>
+        <div class="md:w-3/5">
+            <img src="/src/img/samsung-memory-J8Cfm4W8gd8-unsplash.jpg" alt="" class="w-full">
+        </div>
+      </div> <!--Hero section--> 
+      <div class="my-20">
+        <div class="flex flex-row justify-between my-9">
+          <h2 class="text-2xl md:text-3xl">Accessories</h2>
+          <a href="#" class="text-lg md:text-xl">View All
+            <svg class="h-7 w-5 ml-1 inline-block" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/logitech_wireless_mouse.webp" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">logitech Wireless Mouse</a></h3>
+              <div class="my-3">
+               <h3 class="text-red-700 text-xl">N5,800.00</h3>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button href="" id="btn" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm ">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/apple watch.webp" alt="" class="h-[370px] rounded-tl-lg rounded-tr-l items-center">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Apple Watch Series 6 GPS</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N190,000.00</h3>
+              </div>
+        
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button href="" id="btn2" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/beats bud.webp" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Beats Studio Buds</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N172,300.00</h3>
+              </div>
+            
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn3" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/jbl.webp" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Genuine JBL Charge 5</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N120,000.00</h3>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn4" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--phone accesories-->
+
+      <div class="my-20">
+        <div class="flex flex-row justify-between my-9">
+          <h2 class="text-2xl md:text-3xl">Electronics</h2>
+          <a href="#" class="text-lg md:text-xl">View All
+            <svg class="h-7 w-5 ml-1 inline-block" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/hisense.webp" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Hisense 65″ Smart UHD 4K TV</a></h3>
+              <div class="my-3">
+               <h3 class="text-red-700 text-xl">N85,800.00</h3>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn5" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm ">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/lg_800_washing_machine.jpg" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">LG 800 Washing Machine</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N85,800.00</h3>
+              </div>
+        
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn6" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/lg_dvd_home_theatre_system_-_aud_667.jpg" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">LG DVD Home Theatre System</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N172,300.00</h3>
+              </div>
+            
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn7" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/panasonic_01_1_.jpg" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Panasonic Air Conditioner 1HP</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N277,500.00</h3>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn8" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--Electronics-->
+
+      <div class="my-20">
+        <div class="flex flex-row justify-between my-9">
+          <h2 class="text-2xl md:text-3xl">Phones</h2>
+          <a href="#" class="text-lg md:text-xl">View All
+            <svg class="h-7 w-5 ml-1 inline-block" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/iphone11-red-600x600.png" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Apple iPhone 11</a></h3>
+              <div class="my-3">
+               <h3 class="text-red-700 text-xl">N270,000.00</h3>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn9" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm ">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/galaxy-note-10-plus-5g-600x600.jpg" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Samsung Galaxy Note 10</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N340,000.00</h3>
+              </div>
+        
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn10" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/google-pixel-4a-600x600.jpg" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Google Pixel 4A</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N180,000.00</h3>
+              </div>
+            
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn11" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-lg rounded-lg hover:scale-105 duration-200">
+            <a href="#">
+              <img src="/src/img/apple-iphone-12-pro-600x600.jpg" alt="" class="h-[370px] rounded-tl-lg rounded-tr-lg">
+            </a>
+            <div class="p-5">
+              <h3><a href="#">Apple iPhone 12 Pro</a></h3>
+              <div class="my-3">
+                <h3 class="text-red-700 text-xl">N409,500.00</h3>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <button id="btn12" href="#" class="flex justify-center my-2 bg-gradient-to-r from bg-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 hover:from-pink-600 hover:to-pink-600 text-sm"><svg class="w-5 h-5 mr-1
+                  " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                </svg>
+                 Add to cart</button>
+                <a href="#" class="flex justify-center my-2 bg-purple-600 rounded-full py-2 px-4 text-gray-50 hover:bg-purple-700 text-sm">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--Phones-->
+        
+      <div class="rounded-lg shadow-lg my-20 flex flex-row">
+        <div class="lg:w-3/5 w-full bg-gradient-to-r from-black to-purple-900 lg:via-purple-900 lg:to-transparent rounded-lg text-gray-100 p-12">
+          <div class="lg:w-1/2 ">
+            <h3 class="text-2xl font-extrabold mb-4">Subscribe to get our offers first</h3>
+            <p class="mb-4 leading-relaxed">Want to hear from us when we have new offers? Sign up for our newsletter and we'll email you every time we have new sale offers.</p>
+            <div>
+              <input type="email" placeholder="Enter email address" class="bg-gray-600 text-gray-200 placeholder-gray-400 px-4 py-3 w-full rounded-lg focus:outline-none mb-4">
+              <button type="submit" class="bg-red-600 py-3 rounded-lg w-full">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-2/5 w-full lg:flex lg:flex-row hidden justify-start">
+          <img src="/src/img/friendly-looking-lively-pleasant-african-american-female-coworker-white-sweater-smiling-delighted-pointing-left.jpg" alt="" class="h-96">
+        </div>
+      </div><!--Newsletter section-->
+
+      <div class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between text-center py-5 text-sm">
+        <div class="mb-4">
+          <a href="#" class="mx-2.5">About Us</a>
+          <a href="#" class="mx-2.5">Privacy Policy</a>
+          <a href="#" class="mx-2.5">Terms of Services</a>
+        </div>
+        <p>&copy; Copyright Reserved 2023</p>
+      </div> <!--Footer Section-->
+
+    </div>
+    <script src="/public/index.js"></script>
+    </script>
+  </body>
+</html>
